@@ -1,0 +1,71 @@
+body {
+  background-color: #100e17;
+  font-family: 'Open Sans', sans-serif;
+}
+
+container {
+  position: absolute;
+
+  width: 1920px;
+  top: 60px;
+
+  display: flex;
+}
+.img {
+  border-radius: 20px;
+
+}
+.card {
+
+  height: 150px;
+  width: 95%%;
+  background-color: #17141d;
+  border-radius: 10px;
+  text-align: left;
+  box-shadow: -1rem 0 3rem #000;
+  /*   margin-left: -50px; */
+  transition: 0.4s ease-out;
+  position: relative;
+  left: 0px;
+}
+
+.title {
+  color: white;
+  font-weight: 300;
+  position: absolute;
+  left: 20px;
+  top: 15px;
+}
+.des {
+  color: white;
+  font-weight: 300px;
+  position: absolute;
+  left: 20px;
+  top: 50px;
+}
+
+table {
+  border-spacing: 1;
+  border-collapse: collapse;
+  background: #17141d;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+      box-shadow: -1rem 0 3rem #000;
+      color: white;
+}
+#marksheet {
+  font-family: "Proxima Nova";
+  border-collapse: collapse;
+  width: 100%;
+}
+#marksheet tr:hover {background-color: #000000;}
+#marksheet th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color:   #100e17;
+  color: white;
+}
