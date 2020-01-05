@@ -1,0 +1,26 @@
+table {
+  border-spacing: 1;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+#marksheet {
+  font-family: "Proxima Nova";
+  border-collapse: collapse;
+  width: 100%;
+}
+
+
+#marksheet tr:hover {background-color: #ddd;}
+
+#marksheet th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color:   #36304a;
+  color: white;
+}
